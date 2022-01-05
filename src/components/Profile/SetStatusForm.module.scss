@@ -1,0 +1,11 @@
+.setStatusForm {
+   font-size: 13px;
+   display: flex;
+
+   .input {
+      display: inline-block;
+      color: rgb(139, 139, 139);
+      width: 140px;
+      margin-right: 20px;
+   }
+}

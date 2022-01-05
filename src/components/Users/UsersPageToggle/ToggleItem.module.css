@@ -1,0 +1,26 @@
+.togleItem {
+   padding: 0 10px;
+   color: rgb(145, 145, 145);
+}
+
+.togleItem:hover {
+   cursor: pointer;
+   opacity: 0.6;
+}
+
+.active {
+   color: blueviolet;
+   font-weight: 500;
+}
+
+.non-active {
+}
+
+.noselect {
+   -webkit-touch-callout: none; /* iOS Safari */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Old versions of Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+   user-select: none; /* Non-prefixed version, currently, supported by Chrome, Edge, Opera and Firefox */
+}

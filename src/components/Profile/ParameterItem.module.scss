@@ -1,0 +1,17 @@
+.parametersItem {
+   font-size: 13px;
+   display: flex;
+   margin-bottom: 10px;
+
+   .parameter {
+      display: inline-block;
+      color: rgb(139, 139, 139);
+      width: 150px;
+   }
+   
+   .value {
+      color: rgb(0, 0, 0);
+      display: inline-block;
+      width: 200px;
+   }
+}

@@ -1,0 +1,26 @@
+.userData {
+   display: flex;
+   align-items: start;
+}
+
+.parameters {
+   margin-top: 15px;
+}
+
+.avatar {
+   position: relative;
+   width: 150px;
+   height: 150px;
+   margin-right: 20px;
+}
+
+.avatar img {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.logout {
+   margin-top: 2.5rem;
+}

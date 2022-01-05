@@ -1,0 +1,19 @@
+.toggle {
+   padding-bottom: 45px;
+}
+
+.toggleFlex {
+   margin-bottom: 10px;
+   width: fit-content;
+   display: flex;
+   align-items: center;
+   height: 30px;
+}
+
+.toggleItemsWrapper {
+   margin: 0 10px;
+}
+
+.toggle:hover {
+   cursor: pointer;
+}

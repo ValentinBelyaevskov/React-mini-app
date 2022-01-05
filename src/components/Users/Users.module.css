@@ -1,0 +1,17 @@
+.users {
+   margin: 50px 15px 50px 30px;
+   grid-column: 2/3;
+   justify-self: start;
+}
+
+.usersTitle {
+   font-weight: 700;
+   color: blueviolet;
+   font-size: 1.6rem;
+   line-height: 2rem;
+   margin-bottom: 20px;
+   margin-top: 0;
+}
+
+.aListOfUsers {
+}

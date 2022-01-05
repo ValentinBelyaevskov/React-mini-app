@@ -1,0 +1,46 @@
+.form {
+   font-size: 15px;
+   color: rgb(153, 153, 153);
+
+   width: 200px;
+}
+
+.input {
+   width: 175px;
+   margin-bottom: 1.2rem;
+   border-color: rgb(196, 194, 194);
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 0.5rem;
+   padding: 0.5rem 1rem;
+   font-family: inherit;
+   font-weight: 400;
+   color: rgb(121, 121, 121);
+}
+
+.input::placeholder {
+   color: rgb(156, 156, 156);
+}
+
+.input:focus-visible {
+   border-color: rgb(160, 160, 160);
+}
+
+.checkboxContainer {
+   margin-bottom: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 1.4rem;
+}
+
+.buttonContainer {
+   width: 200px;
+   display: flex;
+   text-align: center;
+   margin-bottom: 1rem;
+}
+
+.loginError {
+   color: red;
+}

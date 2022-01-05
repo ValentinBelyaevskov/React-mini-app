@@ -1,0 +1,26 @@
+.sidebarButton {
+   line-height: 2rem;
+   font-size: 1.3rem;
+   font-weight: 400;
+}
+
+.sidebarButton a {
+   line-height: 2rem;
+   color: inherit;
+   font-size: var(--interface-fz);
+   text-decoration: none;
+}
+
+
+.sidebarButton:hover {
+   font-weight: bold;
+}
+
+.sidebarButton:not(:last-of-type) {
+   margin-bottom: 1.5rem;
+}
+
+.sidebarButton a.activeLink {
+   color: var(--theme-color);
+   font-weight: bold;
+}
